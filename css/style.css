@@ -7,23 +7,29 @@
 }
 
 
+body{
+    font-family: 'Padauk', sans-serif;
+   
+}
+
+
 .header{
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: rgba(54, 124, 60, 0.897);
     margin: 15px 0;
     padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    /*position: fixed;*/
 
     
 }
 
 img{
-    max-width: 60%;
-    margin: 0 -5px;
+    max-width: 80%;
+    margin: 1px -5px;
 }
 .menu ul{
     list-style: none;
@@ -43,4 +49,219 @@ img{
     align-items: flex-end;
     font-family: 'Padauk', sans-serif;
 
+}
+
+
+.imagem{
+   /* max-width: 20%;*/
+    margin: 10px 2px;
+    /*border-radius: 25%;*/
+    
+}
+
+.img{
+    max-width: 60%;
+    margin: 100px 300px;
+}
+
+
+.introduction{
+    width: 80%;
+    height: 2px;
+    margin: 100px 150px 0;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: rgba(104, 70, 20, 0.795); 
+}
+
+
+.container{
+    width: 100%;
+    height: 400px;
+    margin: 100px auto  5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: rgba(54, 124, 60, 0.897);*/
+    
+   
+}
+
+.box{
+    width: 40%;
+    height: 300px;
+   /* background-color: rgb(104, 70, 20);*/
+    border: 5px solid rgb(104, 70, 20);
+    /*border-radius: 25%;*/
+    margin: 0 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.box_texto{
+    color: rgb(104, 70, 20);
+    font-size: 16px;
+}
+
+.box_titulo{
+    color: rgb(104, 70, 20);
+    font-size: 24px;
+    font-weight: 900;
+
+
+}
+
+a {
+    font-size: 28px;
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(104, 70, 20);
+
+}
+
+.box_red{
+    width: 10%;
+    height: 10%;
+    margin: 1px 45.5% 10px;
+    border: 1px solid rgb(196, 13, 13);
+    justify-content: center;
+    text-align: center;
+
+}
+
+.titulo_red{
+    font-size: 12px;
+    color:rgb(196, 13, 13);
+
+}
+
+
+.container_tips{
+    width: 100%;
+    height: auto;
+    margin: 50px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.box_tips{
+    width: 50%;
+    height: 250px;
+    padding: 1px;
+    /*border: 1px solid #000;*/
+    margin: 0 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    /*text-align: center;*/
+}
+
+.tips_titulo{
+    font-size: 72px;
+    text-align: right;
+    color: rgb(104,70,20);
+}
+
+.imagem_tips{
+    text-align: left;
+}
+
+
+
+.box_map{
+    width: 100%;
+    height: 40%;
+    /*border: 5px solid rgba(54, 124, 60, 0.897);*/
+    margin: 0 0;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(54, 124, 60, 0.836);
+}
+
+.box_titulo_map{
+    font-size: 52px;
+    color: rgb(104, 70, 20);
+}
+
+.box_texto{
+    font-size: 22px;
+}
+
+.box_laura{
+    width: 15%;
+    height: 100%;
+    margin: 20px 43%;
+    padding: 0;
+    border: 5px solid rgb(104, 70, 20);
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.titulo_laura{
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(104, 70, 20);
+    
+}
+
+.container_history{
+    width: 80%;
+    height: 60%;
+    margin: 50px 10%;
+}
+
+.history{
+    font-size: 18px;
+    text-align: justify;
+    color: rgb(104, 70, 20);
+}
+
+.history h2{
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.check{
+    width: 10%;
+    height: 10%;
+    margin: 0 88% 100px;
+    border: 5px solid rgb(104, 70, 20);
+    justify-content: center;
+    text-align: center;
+
+}
+
+.check_button{
+    font-size: 18px;
+    color:rgb(104, 70, 20);
+}
+
+.box_textomap{
+     font-size: 22px;
+     margin: 0 150px;
+     color: rgb(104, 70, 20);
+}
+
+.background{
+    background-image: url(../imagens/redroom.jpg);
+    
+    
+}
+
+.container_laura{
+    height: 150px;
+    margin: 50px  150px;
+    text-align: center;
+    background-image: url(../imagens/Laura_Palmer%2C_the_Queen_Of_Hearts.png);
 }
