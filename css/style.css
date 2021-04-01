@@ -214,16 +214,28 @@ a {
     
 }
 
+
+.imghis{
+    margin: 25px 250px;
+}
+
 .container_history{
     width: 80%;
     height: 60%;
     margin: 50px 10%;
+    /*background-image: url(../imagens/Twin\ peaks\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: ;*/
+
 }
 
 .history{
     font-size: 18px;
+    font-weight: 900;
     text-align: justify;
     color: rgb(104, 70, 20);
+    border: 5px solid rgb(104, 70, 20);
 }
 
 .history h2{
@@ -253,15 +265,60 @@ a {
      color: rgb(104, 70, 20);
 }
 
-.background{
-    background-image: url(../imagens/redroom.jpg);
-    
-    
-}
+
 
 .container_laura{
     height: 150px;
     margin: 50px  150px;
     text-align: center;
-    background-image: url(../imagens/Laura_Palmer%2C_the_Queen_Of_Hearts.png);
+}
+
+
+
+.texto_laura{
+    color: rgb(104, 70, 20);
+    font-size: 22px;
+    margin-left: 5px;
+    border: 5px solid rgb(104, 70, 20);
+}
+
+
+.container_red{
+    background-color: #000;
+    text-align: center;
+    padding: 10px ;
+    
+}
+
+.texto_red{
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 80px;
+    border: 2px solid #fff;
+    padding: 10px;
+    background-image: url(../imagens/Red_room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.redtext{
+    text-align: center;
+    font-size: 36px;
+    
+}
+
+.containerred{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pagecontainer{
+    border: 1px solid #000;
+    margin: 25px 200px;
+    pad: 5px;
+    width: 70%;
+    height: 150px;
+    text-align: center;
 }
